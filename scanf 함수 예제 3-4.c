@@ -1,6 +1,6 @@
 /*
-Á¦¸ñ: scanfÇÔ¼ö ¿¹Á¦ 3-3
-³¯Â¥: 2024.02.18
+ì œëª©: scanfí•¨ìˆ˜ ì˜ˆì œ 3-3
+ë‚ ì§œ: 2024.02.18
 */
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -13,17 +13,17 @@ int main() {
 	int result1;
 	int result2;
 
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d", &num1);
 
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d", &num2);
 
 	result1 = num1 / num2;
 	result2 = num1 % num2;
 
-	printf("¸ò: %d \n", result1);
-	printf("³ª¸ÓÁö: %d \n", result2);
+	printf("ëª«: %d \n", result1);
+	printf("ë‚˜ë¨¸ì§€: %d \n", result2);
 
 
 
