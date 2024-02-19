@@ -25,7 +25,4 @@ int main() {
 	printf("몫: %d \n", result1);
 	printf("나머지: %d \n", result2);
 
-
-
-
 }
