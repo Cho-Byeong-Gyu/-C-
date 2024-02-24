@@ -1,23 +1,23 @@
 /*
-Á¦¸ñ: scanfÇÔ¼ö È£Ãâ ¿¹Á¦
-³¯Â¥: 2024.02.18
+ì œëª©: scanfí•¨ìˆ˜ í˜¸ì¶œ ì˜ˆì œ
+ë‚ ì§œ: 2024.02.18
 */
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main() {
-	int num1, num2;
+	int num1, num2, num3;
 	int result;
-	
-	printf("Á¤¼ö one: ");
-	scanf("%d", &num1);		// num1¿¡ Á¤¼öÀÔ·Â
 
-	printf("Á¤¼ö two: ");
-	scanf("%d", &num2);		// num2¾Ö Á¤¼öÀÔ·Â
+	printf("ì •ìˆ˜ 2ê°œ ì…ë ¥: ");
+	scanf("%d %d", &num1, &num2);		// num1, num2ì— ì •ìˆ˜ì…ë ¥
 
-	result = num1 + num2;
-	printf("%d + %d = %d",num1, num2,result);
+	printf("ì •ìˆ˜ 1ê°œ ì…ë ¥: ");
+	scanf("%d", &num3);		// num3ì— ì •ìˆ˜ì…ë ¥
+
+	result = num1 + num2 + num3;
+	printf("%d + %d + %d = %d", num1, num2, num3, result);
 	return 0;
 
 
