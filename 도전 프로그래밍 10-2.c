@@ -1,23 +1,23 @@
 /*
-Á¦¸ñ: µµÀü ÇÁ·Î±×·¡¹Ö 10-2 
-³¯Â¥: 2024.02.28.¼ö
-³»¿ë: µÎ ¼ö¸¦ ÀÔ·Â¹Þ¾Æ ÇØ´çÇÏ´Â ±¸±¸´ÜÀ» Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ¸¸µé±â
+ì œëª©: ë„ì „ í”„ë¡œê·¸ëž˜ë° 10-2 
+ë‚ ì§œ: 2024.02.28.ìˆ˜
+ë‚´ìš©: ë‘ ìˆ˜ë¥¼ ìž…ë ¥ë°›ì•„ í•´ë‹¹í•˜ëŠ” êµ¬êµ¬ë‹¨ì„ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ë§Œë“¤ê¸°
 */
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int GuGuDanOutput(int num1, int num2) {
-	printf("%d´Ü ±¸±¸´Ü \n", num1);
+	printf("%dë‹¨ êµ¬êµ¬ë‹¨ \n", num1);
 	for (int i = 1; i < 10; i++) {
 		printf("%d * %d = %d  \n", num1, i, num1*i);
 	}
 
 	printf("\n");
 	
-	printf("%d´Ü ±¸±¸´Ü \n", num2);
+	printf("%dë‹¨ êµ¬êµ¬ë‹¨ \n", num2);
 	for (int i = 1; i < 10; i++) {
-		printf("%d * %d = %d  \n", num2, i, num1+i);
+		printf("%d * %d = %d  \n", num2, i, num2*i);
 	}
 }
 
@@ -27,7 +27,7 @@ int main() {
 	int num1, num2;
 	int i;
 
-	printf("µÎ ¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä: ");
+	printf("ë‘ ìˆ˜ë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš”: ");
 	scanf("%d %d", &num1, &num2);
 	GuGuDanOutput(num1, num2);
 	return 0;
